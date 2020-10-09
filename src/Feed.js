@@ -10,11 +10,11 @@ function Feed() {
 
             <Post
         
-            profilePic="https://www.channelpartnersonline.com/files/2018/09/Verma-Sunandini_Amrev-Canada.jpg"
-            message="this works"
-            timestamp="this is time stamp"
-            username="sverma"
-            image="https://www.w3schools.com/howto/img_forest.jpg"
+            //profilePic="https://www.channelpartnersonline.com/files/2018/09/Verma-Sunandini_Amrev-Canada.jpg"
+            //message="this works"
+            //timestamp="this is time stamp"
+            //username="sverma"
+            //image="https://www.w3schools.com/howto/img_forest.jpg"
             />
             <Post
             profilePic="https://www.channelpartnersonline.com/files/2018/09/Verma-Sunandini_Amrev-Canada.jpg"

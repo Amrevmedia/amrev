@@ -1,5 +1,11 @@
 .post{
-    width:100%;
+    position: absolute;
+width: 570px;
+height: 274px;
+left: 426px;
+top: 332px;
+
+
     margin-top:15px;
     border-radius:15px;
     background-color: white;
