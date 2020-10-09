@@ -1,0 +1,459 @@
+.Page-Header{
+    /* Rectangle 15 */
+position: absolute;
+width: 1350px;
+height: 100px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Logo{
+/* amrev logo */
+position: absolute;
+width: 100px;
+height: 100px;
+}
+
+.Settings{
+    /* Settings */
+position: absolute;
+left: 83.50%;
+right: 14.44%;
+top: 33.48%;
+bottom: 50.4%;
+}
+
+.Help{
+    /* Help */
+position: absolute;
+left: 90.10%;
+right: 10.28%;
+top: 33.48%;
+bottom: 50.4%;
+}
+
+.Login{
+    /* Login */
+position: absolute;
+left: 95.26%;
+right: 3.54%;
+top: 33.48%;
+bottom: 50.4%;
+}
+
+.Header-fonts{
+    /* Settings-Help-Login button Font CSS */
+font-family: Campton;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+border-style: hidden;
+color: #000000;
+background-color: #FFFFFF;
+}
+
+
+.Head{
+/* Create your account text css*/
+position: absolute;
+width: 299px;
+height: 36px;
+left: 570px;
+top: 170px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+
+color: #454545;
+}
+
+.Signup-box{
+    /* sign-up box  */
+position: absolute;
+width: 450px;
+height: 636px;
+left: 470px;
+top: 255px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.First-name{
+    /* First name */
+position: absolute;
+width: 93px;
+height: 22px;
+left: 15px;
+top: 10px;
+}
+
+.FN-textbox{
+    /* First name textbox*/
+position: absolute;
+width: 200px;
+height: 50px;
+left: 15px;
+top: 62px;
+}
+
+.Last-name{
+    /* Last-name */
+position: absolute;
+width: 92px;
+height: 22px;
+left: 230px;
+top: 10px;
+}
+
+.LN-textbox{
+    /* Last name textbox */
+position: absolute;
+width: 200px;
+height: 50px;
+left: 230px;
+top: 62px;
+}
+
+.Email{
+    /* Email */
+position: absolute;
+width: 48px;
+height: 22px;
+left: 15px;
+top: 114px;
+}
+
+.Eml-textbox{
+    /* Email textbox  */
+position: absolute;
+width: 415px;
+height: 50px;
+left: 15px;
+top: 166px;
+}
+
+.Category{
+    /* Category textbox */
+position: absolute;
+width: 83px;
+height: 22px;
+left: 15px;
+top: 218px;
+}
+
+.Dropdown{
+    /* category dropdown */
+position: absolute;
+width: 410px;
+height: 50px;
+left: 15px;
+top: 270px;
+}
+
+.Password{
+    /* Password */
+position: absolute;
+width: 82px;
+height: 22px;
+left: 15px;
+top: 322px;
+}
+
+.Pass-textbox{
+    /* Password-textbox */
+position: absolute;
+width: 410px;
+height: 50px;
+left: 15px;
+top: 374px;
+}
+
+.C-pass{
+    /* Confirm Password */
+position: absolute;
+width: 158px;
+height: 22px;
+left: 15px;
+top: 426px;
+}
+
+.Cpass-textbox{
+    /* COnfirm Password textbox */
+position: absolute;
+width: 410px;
+height: 50px;
+left: 15px;
+top: 478px;
+}
+
+.Signup-textbox{
+    /* textboxes in the sign-up box */
+font-family: Campton;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+border: 1px solid #A4A4A4;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.Signup-text{
+    /* signup-box texts formatting */
+font-family: Campton;
+font-style: normal;
+font-weight: 550;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #454545;
+}
+
+.Create-account-button{
+/* Create account button */
+position: absolute;
+width: 410px;
+height: 50px;
+left: 15px;
+top: 555px;
+
+background: #3D358B;
+border-radius: 35px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.Line{
+    /* 1st hr  */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 950px;
+bottom: 0px;
+
+border: 1px solid #EBEBEB;
+}
+
+.Box1{
+    /* Present Idea */
+position: absolute;
+left: 17.22%;
+right: 72.22%;
+top: 1050px;
+bottom: 0px;;
+
+font-family: Campton;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 15px;
+
+color: #000000;
+}
+
+.Box2{
+    /* Investor  */
+position: absolute;
+left: 33.96%;
+right: 57.01%;
+top: 1050px;
+bottom: 0px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 15px;
+/* or 200% */
+
+color: #000000;
+}
+
+.Box3{
+    /* Resources  */
+position: absolute;
+left: 51.18%;
+right: 42.22%;
+top: 1050px;
+bottom: 0px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 15px;
+/* or 200% */
+
+color: #000000;
+}
+
+.Box4{
+    /* About  */
+position: absolute;
+left: 68.12%;
+right: 25.14%;
+top: 1050px;
+bottom: 0px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 15px;
+/* or 200% */
+
+color: #000000;
+}
+
+.Box5{
+    /* Partners  */
+position: absolute;
+left: 33.96%;
+right: 58.75%;
+top: 1180px;
+bottom: 0px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 15px;
+/* or 200% */
+
+color: #000000;
+}
+
+.Box6{
+    /* Sell Courses  */
+position: absolute;
+left: 17.22%;
+right: 75.9%;
+top: 1280px;
+bottom: 0px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 15px;
+/* or 200% */
+
+color: #000000;
+}
+
+.Box7{
+    /* terms & privacy  */
+position: absolute;
+left: 33.61%;
+right: 53.33%;
+top: 1280px;
+bottom: 0px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 15px;
+/* or 200% */
+
+color: #000000;
+}
+
+.Link-text{
+    /* bottom section text-links css  */
+font-family: Campton;
+font-style: normal;
+font-weight: 475;
+font-size: 14px;
+line-height: 15px;
+
+color: #000000;
+}
+
+.Line1{
+    /* 2nd hr  */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 1500px;
+bottom: 0px;
+
+border: 1px solid #EBEBEB;
+}
+
+.Footer{
+    /* Footer Content  */
+position: absolute;
+left: 17.15%;
+right: 17.01%;
+top: 1530px;
+bottom: 0px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: 475;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+
+color: #000000;
+}
+
+.fa{
+padding: 10px;
+font-size: 10px;
+width: 10px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+position: absolute;
+left: 73.3%;
+right: 23.99%;
+top: 110px;
+border: 1px solid #E5E5E5;
+}
+  
+.fa-instagram {
+background: #125688;
+color: white;
+position: absolute;
+left: 77.77%;
+right: 20.52%;
+top: 110px;
+border: 1px solid #E5E5E5;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+position: absolute;
+left: 82.24%;
+right: 17.05%;
+top: 110px;
+border: 1px solid #E5E5E5;
+}
