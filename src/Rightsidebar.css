@@ -1,0 +1,93 @@
+.Container {
+    position: absolute;
+    width: 370px;
+    height: 614px;
+    left: 1026px;
+    top: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.Container1 {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    top: 0px;
+    background: #3D358B;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px 10px 0px 0px;
+}
+
+h2 {
+    height: 20px;
+}
+
+.dotmenu {
+    margin-left: 328px;
+    top: 20px;
+    position: absolute;
+}
+
+.icon {
+    position: absolute;
+    width: 101px;
+    height: 60px;
+    left: 318px;
+    top: 27px;
+    background-blend-mode: normal;
+}
+
+.App-clock {
+    margin-left: 247px;
+    top: -8px;
+    position: absolute;
+    color: rgb(37 34 34 / 54%);
+}
+
+.divider {
+    /* Line 3 */
+    width: 316px;
+    height: 0px;
+    position: relative;
+    top: 45px;
+    border: 1px solid #E3E3E3;
+}
+
+h4 {
+    left: 56px;
+    top: 2px;
+    position: absolute;
+    font-family: Campton;
+    font-style: normal;
+    color: rgb(37 34 34 / 54%);
+}
+
+.chatbar {
+    width: 23px;
+    top: 87px;
+    left: 17px;
+    position: absolute;
+}
+
+.menu {
+    width: 109px;
+    left: -76px;
+    z-index: 39;
+    position: absolute;
+    background-color: #fafafa;
+}
+
+h3 {
+    position: absolute;
+    width: 125.58px;
+    height: 14.6px;
+    top: 26.7px;
+    left: 34px;
+    font-family: Campton;
+    font-style: normal;
+    font-weight: 230;
+    font-size: 22px;
+    line-height: 17px;
+    color: #fafafa;
+}
