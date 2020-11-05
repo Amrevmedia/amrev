@@ -5,7 +5,7 @@
     height: 545px;
     left: 25px;
     top: 151px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
@@ -45,7 +45,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #A4A4A4;
+    color: #a4a4a4;
 }
 
 #head1 {
@@ -59,7 +59,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #A4A4A4;
+    color: #a4a4a4;
 }
 
 #head2 {
@@ -73,7 +73,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #A4A4A4;
+    color: #a4a4a4;
 }
 
 .icon1 {
@@ -108,7 +108,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #A4A4A4;
+    color: #a4a4a4;
 }
 
 .container2 {
@@ -118,7 +118,7 @@
     left: 128px;
     top: 122px;
     background-blend-mode: normal;
-    border: 3px #FFFFFF;
+    border: 3px #ffffff;
     box-sizing: border-box;
 }
 
@@ -129,7 +129,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #A4A4A4;
+    color: #a4a4a4;
     left: 5.83%;
     right: 53.86%;
     top: 135.89%;
@@ -138,7 +138,7 @@
 
 button {
     background-color: #fafafa;
-    color: #A4A4A4;
+    color: #a4a4a4;
     border: white;
 }
 
@@ -193,5 +193,5 @@ button {
     height: 0px;
     left: 22px;
     top: 303px;
-    border: 1px solid #E3E3E3;
-} 
+    border: 1px solid #e3e3e3;
+}
