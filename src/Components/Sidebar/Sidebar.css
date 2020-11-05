@@ -1,0 +1,197 @@
+.Container {
+  /* Rectangle 17 */
+  position: absolute;
+  width: 370px;
+  height: 545px;
+  left: 25px;
+  top: 151px;
+  background: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.container1 {
+  position: absolute;
+  width: 370px;
+  height: 156px;
+  left: -1px;
+  top: 0px;
+  background: url(../../Assets/city.jpg);
+  border-radius: 10px 10px 0px 0px;
+}
+
+#name {
+  position: absolute;
+  width: 109px;
+  height: 29px;
+  left: -3px;
+  top: 87px;
+  font-family: Campton;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+#heading {
+  position: absolute;
+  width: 113px;
+  height: 19px;
+  left: 10px;
+  top: 118px;
+  font-family: Campton;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a4a4a4;
+}
+
+#head1 {
+  position: absolute;
+  width: 113px;
+  height: 19px;
+  left: 38px;
+  top: 124px;
+  font-family: Campton;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a4a4a4;
+}
+
+#head2 {
+  position: absolute;
+  width: 113px;
+  height: 19px;
+  left: 40px;
+  top: 176px;
+  font-family: Campton;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a4a4a4;
+}
+
+.icon1 {
+  left: 9px;
+  font-size: small;
+  top: 120px;
+  position: absolute;
+}
+
+.icon2 {
+  left: 9px;
+  font-size: small;
+  top: 175px;
+  position: absolute;
+}
+
+.icon3 {
+  left: 7px;
+  font-size: small;
+  top: 230px;
+  position: absolute;
+}
+
+#head3 {
+  position: absolute;
+  width: 113px;
+  height: 19px;
+  left: 40px;
+  top: 230px;
+  font-family: Campton;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a4a4a4;
+}
+
+.container2 {
+  position: absolute;
+  width: 89px;
+  height: 87px;
+  left: 128px;
+  top: 122px;
+  background-blend-mode: normal;
+  border: 3px #ffffff;
+  box-sizing: border-box;
+}
+
+.rightbar {
+  position: absolute;
+  font-family: Campton;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a4a4a4;
+  left: 5.83%;
+  right: 53.86%;
+  top: 135.89%;
+  bottom: 9.34%;
+}
+
+button {
+  background-color: #fafafa;
+  color: #a4a4a4;
+  border: white;
+}
+
+.textbox {
+  position: absolute;
+  width: 34px;
+  height: 22px;
+  left: 292px;
+  top: 332px;
+  font-family: Campton;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  border: 1px solid;
+  line-height: 22px;
+  color: #fafafa;
+}
+
+.textbox1 {
+  position: absolute;
+  width: 34px;
+  height: 22px;
+  left: 292px;
+  top: 385px;
+  font-family: Campton;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  border: 1px solid;
+  line-height: 22px;
+  color: #fafafa;
+}
+
+.textbox2 {
+  position: absolute;
+  width: 34px;
+  height: 22px;
+  left: 292px;
+  top: 436px;
+  font-family: Campton;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  border: 1px solid;
+  line-height: 22px;
+  color: #fafafa;
+}
+
+.line {
+  position: absolute;
+  width: 330px;
+  height: 0px;
+  left: 22px;
+  top: 303px;
+  border: 1px solid #e3e3e3;
+}

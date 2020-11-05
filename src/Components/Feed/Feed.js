@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Feed.css";
-import MessageSender  from './MessageSender';
-import Post from './Post';
+import MessageSender  from '../MessageSender/MessageSender';
+import Post from '../Post/Post';
 function Feed() {
     return (
         <div className="feed">
