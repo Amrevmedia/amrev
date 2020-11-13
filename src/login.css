@@ -1,0 +1,101 @@
+.Head-login{
+    position: absolute;
+width: 98px;
+height: 36px;
+left: 610px;
+top: 220px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: 550;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+color: #454545;
+}
+
+.Login-box{
+    position: absolute;
+    width: 450px;
+    height: 359px;
+    left: 450px;
+    top: 310px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.Eml-login{
+position: absolute;
+width: 415px;
+height: 50px;
+left: 15px;
+top: 75px;
+
+border: 1px solid #A4A4A4;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.Pass-login{
+    position: absolute;
+width: 82px;
+height: 22px;
+left: 15px;
+top: 135px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: 550;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: #454545;
+}
+
+.Emltxt-login{
+    position: absolute;
+width: 410px;
+height: 50px;
+left: 515px;
+top: 395px;
+
+border: 1px solid #A4A4A4;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.Passtxt-login{
+    position: absolute;
+width: 410px;
+height: 50px;
+left: 15px;
+top: 200px;
+
+border: 1px solid #A4A4A4;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.Login-button{
+    position: absolute;
+width: 410px;
+height: 50px;
+left: 15px;
+top: 282px;
+
+background: #3D358B;
+border-radius: 35px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+
