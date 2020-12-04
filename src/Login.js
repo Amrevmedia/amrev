@@ -36,7 +36,7 @@ const Login = () => {
                       ...prevState,
                       'successMessage' : 'Registration successful. Redirecting to home page..'
                   }))
-                 history.push('/feed')
+                 history.push('/common')
 
                 } else{
                     console.log("error")

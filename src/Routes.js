@@ -8,6 +8,8 @@ import {
 import Signup from './Signup';
 import Login from './Login';
 import Feed from './Feed';
+import Header from './Header';
+import Common from "./Common";
 
 export const Routes = () => {
     return (
@@ -19,6 +21,12 @@ export const Routes = () => {
 
             <Route path='/login'>
                 <Login />
+            </Route>
+            <Route path='/common'>
+                <Common />
+            </Route>
+            <Route path='/header'>
+                <Header/>
             </Route>
             <Route path='/feed'>
                 <Feed />
