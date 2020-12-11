@@ -3,17 +3,21 @@ import React from 'react'
 import './Sign-up.css'
 import logo from './logo.png'
 import 'font-awesome/css/font-awesome.min.css';
-
+import Login from './login.js'
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 class Signup extends Component{
+
+
+
     render(){
         return(
             <React.Fragment>
                 <div className="Page-Header">
-                    <img src={logo} className="Logo" alt="Logo" />
-                    <button className="Settings Header-fonts"> Settings</button>
-                    <button className="Help Header-fonts"> Help</button>
-                    <button className="Login Header-fonts"> Login</button>
+                    <img src={logo} className="logo" alt="Logo" />
+                    <button className="Settings Header-fonts"> Settings </button>
+                    <button className="Help1 Header-fonts"> Help </button>
+                    <Link to="/login" className="login Header-fonts"> Login </Link>
                 </div>
                 <p className="Head"> Create your account </p> 
                 <div className="Signup-box">

@@ -4,16 +4,18 @@ import './Sign-up.css'
 import './login.css'
 import logo from './logo.png'
 import 'font-awesome/css/font-awesome.min.css';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+
 
 function Login()
 {
     return(
         <React.Fragment>
              <div className="Page-Header">
-                <img src={logo} className="Logo" alt="Logo" />
+                <img src={logo} className="logo" alt="Logo" />
                 <button className="Settings Header-fonts"> Settings </button>
                 <button className="Help1 Header-fonts"> Help </button>
-                <button className="Login Header-fonts"> Sign-up </button>
+                <Link to="/signup" className="login Header-fonts"> Signup </Link>
             </div>
             <p className="Head-login"> Sign in </p> 
             <div className="Login-box">

@@ -1,3 +1,98 @@
+.Header{
+    /* Header */
+position: absolute;
+width: 1350px;
+height: 100px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Logo{
+    /* amrev logo */
+position: absolute;
+width: 100px;
+height: 100px;
+left: 50px;
+top: 33px;
+}
+
+.Search{
+    /* Search */
+position: absolute;
+width: 325px;
+height: 60px;
+left: 485px;
+top: 20px;
+font-size: 22px;
+
+background: #F4F4F4;
+border-radius: 10px;
+}
+
+.Setting{
+    /* Settings */
+position: absolute;
+left: 75.26%;
+right: 22.15%;
+top: 40.07%;
+bottom: 94.08%;
+}
+
+.Help{
+    /* Help */
+position: absolute;
+left: 81.58%;
+right: 17.99%;
+top: 40.07%;
+bottom: 94.08%;
+}
+
+.Noti{
+    /* Notification */
+position: absolute;
+left: 86.25%;
+right: 9.65%;
+top: 40.09%;
+bottom: 94.13%;
+}
+
+.Header-Text{
+/* Header-Text css */
+font-family: Campton;
+font-style: normal;
+font-weight: 475;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+
+.pro-pic{
+    /* pro-pic */
+position: absolute;
+left: 94.35%;
+right: 2.65%;
+top: 25.09%;
+bottom: 94.13%;
+
+border-radius: 50%;
+}
+
+.pro-pic1{
+position: absolute;
+width: 87px;
+height: 87px;
+left: 10px;
+top: 15px;
+
+border-radius: 50%;
+border: 3px solid #FFFFFF;
+box-sizing: border-box;
+}
+
 .Container {
     /* Rectangle 17 */
     position: absolute;
@@ -16,9 +111,10 @@
     height: 156px;
     left: -1px;
     top: 0px;
-    background: url(city.jpg);
     border-radius: 10px 10px 0px 0px;
 }
+
+
 
 #name {
     position: absolute;
@@ -195,3 +291,79 @@ button {
     top: 303px;
     border: 1px solid #E3E3E3;
 } 
+
+.status-bar{
+    position: absolute;
+    width: 570px;
+    height: 154px;
+    left: 426px;
+    top: 153px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.status-pic{
+    /* pro-pic in status bar */
+    position: absolute;
+width: 49px;
+height: 49px;
+left: 12px;
+top: 12px;
+
+background-blend-mode: normal;
+}
+
+.status-content{
+    /* content to be written while posting  */
+position: absolute;
+width: 425px;
+height: 85px;
+left: 75px;
+top: 20px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: 475;
+font-size: 18px;
+line-height: 22px;
+
+border: none;
+color: black;
+}
+
+.video{
+    /* upload video button */
+position: absolute;
+width: 189px;
+height: 30px;
+left: 12px;
+top: 100px;
+}
+
+label{
+    display: inline-block;
+    background-color: lightgray;
+    color: black;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    height: 15px;
+  }
+
+.post {
+    position: absolute;
+    width: 570px;
+    height: 274px;
+    left: 426px;
+    top: 332px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  
+
