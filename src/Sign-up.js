@@ -7,9 +7,6 @@ import Login from './login.js'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 class Signup extends Component{
-
-
-
     render(){
         return(
             <React.Fragment>

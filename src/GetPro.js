@@ -7,9 +7,10 @@ import Post from './Post.js'
 import './CCHome.css'
 import { HiLightBulb } from "react-icons/hi"
 import {BsBook} from "react-icons/bs"
-import {MdAttachMoney} from "react-icons/md"
+import {RiSaveLine} from "react-icons/ri"
 
-class CCHome extends Component{
+
+class GetPro extends Component{
     render(){
         return(
             <React.Fragment>
@@ -32,41 +33,29 @@ class CCHome extends Component{
                      </div> 
                      <div className = "line" > </div> 
                      <div className = "textbox" >
-                         <button> 6 </button>; 
+                         <button> 6 </button> 
                      </div> 
                      <div className = "textbox1" >
-                         <button > 6 </button>; 
+                         <button > 6 </button>
                      </div> 
                      <div className = "textbox2" >
-                         <  button > 6 </button>; 
+                         <  button > 6 </button> 
                      </div> 
                      <div className = "rightbar" >
-                         <HiLightBulb size={20} className="icon1"/>
+                          <HiLightBulb size={20} className="icon1" />
                          <a href="" id = "head1" > Ideas </a> 
                          <BsBook size={20} className="icon2" />
                          <a href="" id = "head2" > Courses </a> 
-                         <MdAttachMoney size={20} className="icon3" />
-                         <a href="" id = "head3" > Wallet </a> 
+                         <RiSaveLine size={20} className="icon3" />
+                         <a href="" id = "head3" > Saved </a>  
                      </div>
                  </div> 
              </div>
          </div>
-         <div className="status-bar">
-                <img src={propic} className="status-pic" />
-                <textarea className="status-content"  placeholder="Start making your courses"></textarea>
-                    <div className="video">
-                        <input type="file" id="upload" hidden/>
-                        <label for="upload">Upload Video</label>
-                    </div>
-        </div>
-        <div className="feed">
-            <Post content="This is my first post!" />
-            <Post content="This is my second post!" />
-        </div>
+         
         </React.Fragment>
         )
     }
 }
 
-export default CCHome
-
+export default GetPro

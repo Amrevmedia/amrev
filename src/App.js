@@ -6,16 +6,19 @@ import CCHome from './CCHome.js'
 import Landing from './Landing.js'
 import Signup from './Sign-up.js'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import GetPro from './GetPro.js'
 
 class App extends Component {
  render() {
   return (
+            <Router>
               <Switch>
-                <Route path="/" component={Landing} exact />
+                <Route path="/" component={CCHome} exact />
                 <Route path="/login" component={Login} />
                 <Route path="/signup" component={Signup} />
                 <Route component={Error} />
               </Switch>
+            </Router>
   );
 }
 }
