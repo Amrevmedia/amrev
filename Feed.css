@@ -1,0 +1,13 @@
+.feed{
+    flex:1;
+    padding: 10px 150px;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 10%;
+}
+.note{
+    margin-top: 15%;
+    margin-left: 28%;
+}
