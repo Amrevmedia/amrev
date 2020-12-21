@@ -1,0 +1,117 @@
+.container{
+    position: absolute;
+width: 920px;
+height: 801px;
+left: 426px;
+top: 153px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.title{
+    position: absolute;
+width: 514px;
+height: 96px;
+left: 105px;
+top: 33px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 625;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+
+.title1{
+    position: absolute;
+width: 202px;
+height: 25px;
+left: 105px;
+top: 200px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: 550;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+}
+
+.CCbutton{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left: 105px;
+    top: 304px;
+    
+    background: #FFFFFF;
+    border: 2px solid #3D358B;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: 550;
+font-size: 22px;
+line-height: 26px;
+
+color: #3D358B;
+}
+
+.PPbutton{
+    position: absolute;
+width: 200px;
+height: 60px;
+left: 347px;
+top: 304px;
+
+border: 2px solid #3D358B;
+background: #FFFFFF;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.CN{
+position: absolute;
+width: 370px;
+height: 60px;
+left: 105px;
+top: 404px;
+
+background: #F4F4F4;
+border-radius: 10px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: 550;
+font-size: 16px;
+line-height: 19px;
+
+color: #B5B5B5;
+}
+
+.PC{
+    position: absolute;
+width: 170px;
+height: 60px;
+left: 545px;
+top: 404px;
+
+background: #F4F4F4;
+border-radius: 10px;
+
+font-family: Campton;
+font-style: normal;
+font-weight: 550;
+font-size: 16px;
+line-height: 19px;
+color: #B5B5B5;
+}
+
+
+

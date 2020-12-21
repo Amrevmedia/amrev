@@ -5,10 +5,11 @@ import propic from './pro-pic.png'
 import bg from './bg.png'
 import Post from './Post.js'
 import './CCHome.css'
+import './GetPro.css'
 import { HiLightBulb } from "react-icons/hi"
 import {BsBook} from "react-icons/bs"
 import {RiSaveLine} from "react-icons/ri"
-
+import {FaCcPaypal} from "react-icons/fa"
 
 class GetPro extends Component{
     render(){
@@ -52,7 +53,14 @@ class GetPro extends Component{
                  </div> 
              </div>
          </div>
-         
+         <div className="container">
+            <p className="title"> Power up your ideas with Amrev Pro </p>
+            <p className="title1"> Payment details </p>
+            <button className="CCbutton"> Credit Card </button>
+            <button className="PPbutton"> <FaCcPaypal size={50} /> </button>
+            <input type="text" className="CN" placeholder="Card Number" />
+            <input type="text" className="PC" placeholder="Postal/Zip Code" />
+         </div>
         </React.Fragment>
         )
     }

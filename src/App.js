@@ -13,7 +13,7 @@ class App extends Component {
   return (
             <Router>
               <Switch>
-                <Route path="/" component={CCHome} exact />
+                <Route path="/" component={GetPro} exact />
                 <Route path="/login" component={Login} />
                 <Route path="/signup" component={Signup} />
                 <Route component={Error} />
